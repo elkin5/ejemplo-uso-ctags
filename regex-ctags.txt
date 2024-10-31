@@ -1,0 +1,15 @@
+--regex-<LANG>=<PATTERN>/<NAME>/[<KIND>/]LONGFLAGS
+
+--regex-kotlin=
+/^[[:space:]]*((abstract|final|sealed|implicit|lazy|private[^ ]*(\\[[a-z]*\\])*|protected)[[:space:]]*)*fun[[:space:]]+([[:alnum:]_:]+)
+/\\4
+/m,methods/
+
+
+--regex-javascript="/^[[:space:]]*([[:alnum:]_:]+)[[:space:]]+function/\\1/m,method/"
+
+"--regex-javascript=/^[[:space:]]*([[:alnum:]_:]+)[[:space:]]+function/\\1/m,method/"
+
+^[[:space:]]*Ext.define\(\"([[:alnum:]_.]+)\"
+
+--regex-javascript="/^[[:space:]]*Ext.define\(\"([[:alnum:]_.]+)\"/\\1/c,class/" --regex-javascript="/^[[:space:]]*([[:alnum:]_:]+)[[:space:]]+function/\\1/m,method/"

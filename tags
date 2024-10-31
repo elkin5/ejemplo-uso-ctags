@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/elkin/Developement/ctags/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210307.0/
+AnonymousFunction5bd759140100	Controller.js	/^	onLaunch: function () {$/;"	f
+AnonymousFunction5bd759140200	Controller.js	/^	onShowMain: function () {$/;"	f
+AnonymousFunction5bd759140300	Controller.js	/^	LoadLayersSetting: function () {$/;"	f
+AnonymousFunction5bd759140400	Controller.js	/^		obRequest.then(function (iobResponse) {$/;"	f
+AnonymousFunction5bd759140500	Controller.js	/^			ErrorHandler.handleError(iobError, function () {$/;"	f
+AnonymousFunction5bd759140600	Controller.js	/^	fobLayersFromGECGC: function () {$/;"	f
+AnonymousFunction5bd759140700	Controller.js	/^	fobGetLayersSettingDefault: function () {$/;"	f
+AnonymousFunction5bd759140800	Controller.js	/^	changeView: function () {$/;"	f
+AnonymousFunction5bd759140900	Controller.js	/^	ResetSettings: function (iobGISComponent, iobGCStyleComponent, isbLayerName) {$/;"	f
+AnonymousFunction5bd759140a00	Controller.js	/^			me.fobLayersFromGECGC().then(function (iobResponse) {$/;"	f
+arMapCenter	Controller.js	/^				"arMapCenter": [0, 0],$/;"	p	class:AnonymousFunction5bd759140700.obSetting
+arOSFLayers	Controller.js	/^				"arOSFLayers": [{$/;"	p	class:AnonymousFunction5bd759140700.obSetting
+message	Controller.js	/^				message: I18N.fsbWrite("Cargando", "GE_MESSAGE.DESCRIPTION@911527")$/;"	p	class:AnonymousFunction5bd759140300.obMask
+nuBaseLayerMapType	Controller.js	/^				"nuBaseLayerMapType": 1,$/;"	p	class:AnonymousFunction5bd759140700.obSetting
+nuZoom	Controller.js	/^				"nuZoom": 3,$/;"	p	class:AnonymousFunction5bd759140700.obSetting
+obMask	Controller.js	/^			obMask = {$/;"	c	class:AnonymousFunction5bd759140300
+obSetting	Controller.js	/^			obSetting = {$/;"	c	class:AnonymousFunction5bd759140700
+sbApplication_name	Controller.js	/^				"sbApplication_name": me.fsbGetNameApp(),$/;"	p	class:AnonymousFunction5bd759140700.obSetting
+sbBaseLayerType	Controller.js	/^				"sbBaseLayerType": "OpenStreetMap",$/;"	p	class:AnonymousFunction5bd759140700.obSetting
+xtype	Controller.js	/^				xtype: 'OUI_ExecutionIndicator',$/;"	p	class:AnonymousFunction5bd759140300.obMask
